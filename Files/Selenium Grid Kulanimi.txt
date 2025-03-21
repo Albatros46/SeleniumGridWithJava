@@ -1,0 +1,11 @@
+Selenium Grid Kullanimi 
+chromedriver
+geckodriver
+selenium-server-4.29.0
+dosyalanin buludnugu klasörde terminal ac:
+ ->java -jar selenium-server-4.29.0.jar hub
+ http://192.168.178.104:4444/
+ baska terminal ac : 
+ ->java -jar selenium-server-4.29.0.jar node --detect-drivers true
+ daha sonra hub icinde 
+ http://192.168.178.104:5555   gösteren browserler görünecek
